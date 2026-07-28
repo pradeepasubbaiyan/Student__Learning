@@ -3,6 +3,8 @@ __pycache__/
 *.pyc
 .env
 data/
+!data/student_analytics_enriched.csv
+!data/student_recommendations.csv
 models/
 .vscode/
 .DS_Store
