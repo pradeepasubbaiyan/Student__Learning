@@ -62,6 +62,31 @@ python src\recommendation.py
 streamlit run dashboard\app.py
 ```
 
+## Live Demo
+
+This repository is a Streamlit app and can be deployed to a hosted service for a clickable visual demo.
+
+Once deployed, add your live app URL here:
+
+- Live demo: [Click here to view the app](https://your-streamlit-app-url/)
+
+## Deployment
+
+### Deploy to Streamlit Cloud
+
+1. Go to https://streamlit.io/cloud and sign in with GitHub.
+2. Click `New app` and connect your GitHub repository.
+3. Select:
+   - Repository: `pradeepasubbaiyan/Student__Learning`
+   - Branch: `main`
+   - File path: `dashboard/app.py`
+4. Click `Deploy`.
+5. Copy the live URL from Streamlit Cloud and replace `https://your-streamlit-app-url/` above.
+
+### Alternative hosts
+
+You can also deploy this app to Render, Railway, or Azure App Service using the same `requirements.txt` and `dashboard/app.py` entrypoint.
+
 ## Notes
 
 - Generated datasets are stored in `data/`.
